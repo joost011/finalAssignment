@@ -1,0 +1,10 @@
+# This is an example of the config file that is necessary for running the project
+# This means that this file should NEVER contain any actual values, like an absolute path
+# The only exceptions are generic values that are not personal or privacy sensitive in any way
+# When cloning the repository, copy this file and remove '.example' from the file name
+# In the newly created file, actual values can be stored safely 
+
+temperature_data_path: 
+townships_data_path:
+mortality_data_path: 
+weather_stations_coordinates_path:
