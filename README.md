@@ -1,5 +1,7 @@
 # Research correlation temperature and mortality in the Netherlands
 
+![title](images/readme_preview.png)
+
 The research in this repository aims to find out whether there exists a correlation between temperature and mortality in the Netherlands.
 
 ## Authors
