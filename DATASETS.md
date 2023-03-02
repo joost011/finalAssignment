@@ -13,7 +13,7 @@ This document provides links to the datasets that are used in the research and i
 Below there are instructions on how to retrieve each dataset.
 
 
-### Temperature data
+## Temperature data
 
 The temperature data is retrieved from the Royal Netherlands Meteorological Institute (KNMI) via the following link:
 
@@ -21,26 +21,26 @@ https://www.knmi.nl/nederland-nu/klimatologie/maandgegevens
 
 This link will bring you to the website of the KNMI. On the website, separate datasets of the 10 weather stations can be downloaded. In order to create the dataset that is used in this research, these 10 separate datasets need to be merged into one dataset, containing data from all the 10 stations. In order to do so, follow the instructions below.
 
-##### 1. Download the first dataset
+#### 1. Download the first dataset
 When you open the link above, you will see a header named 'Gemiddelde temperatuur' (Average temperature), with underneath a list of 10 weather stations. Right-click the first station in the list (Den Helder/De Kooy), and click 'Save link as...' to save this dataset to your computer. Important: save the dataset as a CSV file.
 
-![Download first dataset](images/dataset_instructions/temperature_1.png)
+<img src='images/dataset_instructions/temperature_1.png' alt="[Download first dataset" width="700" />
 
-##### 2. Remove the last entry
+#### 2. Remove the last entry
 After downloading the first dataset, open it on your computer. Remove the last entry of the dataset. This is the year 2023 which is not included in the research since it has not ended yet.
 
-![Remove last entry](images/dataset_instructions/temperature_2.png)
+<img src='images/dataset_instructions/temperature_2.png' alt="[Remove last entry" width="700" />
 
-##### 3. Copy data from the other stations
+#### 3. Copy data from the other stations
 Next, click the second station in the list. This will open a text file in the browser. Copy **only the values** of this file, and paste them underneath the values in the dataset of the first station that you just downloaded. Important: don't copy the last entry of the file. Again, this is 2023 and is not included in this research.
 
-![Copy data from other stations](images/dataset_instructions/temperature_3.png)
+<img src='images/dataset_instructions/temperature_3.png' alt="Copy data from other stations" width="700" />
 
-##### 4. Repeat
+#### 4. Repeat
 Repeat the previous step for all the remaining weather stations in the list. After this, the dataset is complete and ready to be used.
 
 
-### Mortality data
+## Mortality data
 
 The mortality data is retrieved from the Central Bureau of Statistics (Centraal bureau voor de Statistiek, CBS) via the following link:
 
@@ -48,25 +48,25 @@ https://opendata.cbs.nl/statline/portal.html?_la=en&_catalog=CBS&tableId=37230ne
 
 In order to download the dataset, certain filters need to be applied. To do so, follow the instructions below.
 
-##### 1. Select 'Original dataset'
+#### 1. Select 'Original dataset'
 When you open the link above, you will see a side menu on the left. In that menu, click the option 'Original dataset'. This will open an extra menu.
 
-![Select original dataset](images/dataset_instructions/mortality_1.png)
+<img src='images/dataset_instructions/mortality_1.png' alt="Select original dataset" width="700" />
 
-##### 2. Click ' Topics'
+#### 2. Click ' Topics'
 In the newly opened menu, click 'Topics'. This will open a menu where certain filters can be selected to filter the dataset.
 
-![Click topics](images/dataset_instructions/mortality_2.png)
+<img src='images/dataset_instructions/mortality_2.png' alt="Click topics" width="700" />
 
-##### 3. Filter the data
+#### 3. Filter the data
 To filter the data so only the deceased data is downloaded, select 'Overledenen'. After this, close this menu by clicking the cross in the top right of the menu.
 
-![Filter data](images/dataset_instructions/mortality_3.png)
+<img src='images/dataset_instructions/mortality_3.png' alt="Filter data" width="700" />
 
-##### 4. Download the data
+#### 4. Download the data
 Lastly, click the buttton 'Download CSV' to download the dataset. The dataset is now ready for use.
 
-![Download data](images/dataset_instructions/mortality_4.png)
+<img src='images/dataset_instructions/mortality_4.png' alt="Download data" width="700" />
 
 
 ### Township geometry data
@@ -78,5 +78,5 @@ https://www.jerryvermanen.nl/wp-content/uploads/2012/01/Alle-gemeenten-in-Nederl
 This dataset does not need to be modified and is ready for use.
 
 
-### Weather station coordinates
+## Weather station coordinates
 WIP
