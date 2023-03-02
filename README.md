@@ -6,6 +6,9 @@ The research in this repository aims to find out whether there exists a correlat
 Contributers of this repository: \
 [@joost011](https://github.com/joost011) 
 
+## Data
+There are four datasets used in this research. Instructions on how to retrieve these datasets can be found in ```DATASETS.md``` in the repository.
+
 ## Installation
 
 This project requires [Python](https://www.python.org/downloads/) and [Jupyter Notebook](https://jupyter.org/) to be installed.
