@@ -69,7 +69,7 @@ Lastly, click the buttton 'Download CSV' to download the dataset. The dataset is
 <img src='images/dataset_instructions/mortality_4.png' alt="Download data" width="700" />
 
 
-### Township geometry data
+## Township geometry data
 
 The township geometry data can be directly downloaded by clicking the following link:
 
@@ -79,4 +79,19 @@ This dataset does not need to be modified and is ready for use.
 
 
 ## Weather station coordinates
-WIP
+To create the dataset with coordinates of the weather stations, just copy the table below into an Excel file.
+
+| Station | Latitude | Longitude |
+|---------|----------|-----------|
+| 235 | 52.927569020479 | 4.77746461321089 |
+| 270 | 53.2225701939513 | 5.76872595163814 |
+| 280 | 53.125898680839 | 6.58452230688793 |
+| 290 | 52.2732303436951 | 6.88116766661282 |
+| 240 | 52.3149981590354 | 4.76654629460874 |
+| 260 | 52.1035081425536 | 5.17690038445633 |
+| 344 | 51.9247895478415 | 4.47366055894556 |
+| 310 | 51.4529074423793 | 3.56721700854245 |
+| 370 | 51.5011977923388 | 5.47426454951116 |
+| 380 | 50.9056172136412 | 5.76187970042932 |
+
+After saving the file, the dataset is ready for use.
